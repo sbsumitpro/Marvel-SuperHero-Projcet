@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.home{
+    position: absolute;
+    top:25px;
+    left: 50%;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+
+.canvas{
+    width: 85vw;
+    height: 80vh;
+    box-shadow: 0 0 10px 4px;
+    background-color: #FAF3F0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.character-img-div{
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 13px 4px brown;
+}
+
+.character-img-div img{
+    height: 100%;
+    width: 100%;
+}
+
+.character-info {
+    width: 50%;
+    min-width: 700px;
+}
+

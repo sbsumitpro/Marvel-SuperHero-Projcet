@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(../images/4K-Marvel-Wide-Screen.jpeg);
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.home{
+    position: absolute;
+    top:25px;
+    transform: scale(1.5);
+    cursor: pointer;
+    color: #fff;
+}
+
+h2{
+    position: absolute;
+    top:0px;
+    color: #fff;
+}
+
+.canvas{
+    width: 85vw;
+    height: 80vh;
+    box-shadow: 0 0 10px 4px;
+    background-color: rgba(0, 20, 200, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+.fav-superhero-div{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 14px 10px rgb(248, 208, 208);
+    color: white;
+}
+
+.fav-superhero-div img{
+    height: 200px;
+    width: 100%;
+}
+
+.fav-superhero-div div{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,173 @@
+body{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    background-color: #e1aaa3;
+}
+
+/* -------------header section design----------- */
+
+header{
+    height: 20%;
+    min-height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/homepage.jpeg);
+    backdrop-filter: blur(8px);
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.Headline{
+    color: #F9F5F6;
+    font-size: 3rem;
+    font-family: 'Dai Banna SIL', serif;
+    margin-bottom: 40px;
+    transform: translateY(-35px);
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(236 245 62);
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.search-bar{
+     width:550px;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     background-color: rgb(224, 244, 14);
+     border-radius: 30px;
+     padding: 3px 8px 0;
+     padding: 0 8px;
+}
+
+.search-bar input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    padding: .3rem;
+    outline: none;
+    border: none;
+    color: rgb(106, 31, 31);
+    border-left: 2px double blue;
+    margin-left: 2px;
+}
+
+.search-bar span{
+    background-color: transparent;
+    color: rgb(83, 51, 51);
+    transform: scale(.8);
+}
+
+#xmark:hover{
+    cursor: pointer;
+}
+
+/* --------------Home page list of character section--------------- */
+
+.character-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 0 0 10px 1px black;
+    padding: 40px 0 40px;
+    margin-top: 0px;
+    background-color: #e1aaa3;
+
+}
+
+.characters{
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 17px 3px lightgray;
+    margin: 5px 0;
+}
+
+.characters div{
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.character-img{
+    width: 95%;
+    height: 100%;
+}
+
+
+.character-img:hover{
+    cursor: pointer;
+}
+
+.characters span{
+    color:#ACFADF;
+}
+
+/* Dynamically Search-result design */
+
+.search-result-container{
+    margin:auto;
+    width:550px;
+    height: 30vh;
+    margin-top: -70px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    overflow:scroll;
+}
+
+#search_results{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    list-style: none;
+    list-style-type: none;
+}
+
+.s_result{
+    height: 80px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ACFADF;
+    list-style: none;
+    padding: 0 8px;
+    box-shadow: 0 0 10px 1px white;
+}
+
+.s_result:hover{
+    cursor: pointer;
+}
+
+.poster-div{
+    height: 60px;
+    width: 60px;
+}
+
+.poster-div img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
