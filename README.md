@@ -3,6 +3,8 @@ Javascript project to play with APIs
 
 In this project I have used sessionStorage and localStorage.
 
+(c) Sumit Biswas
+
 Features:---
 
 Home Page
